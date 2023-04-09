@@ -1,3 +1,4 @@
+import 'package:exp_scr/UI/Cards/feelcard.dart';
 import 'package:exp_scr/UI/HorizontalRails/new_addition_section.dart';
 import 'package:flutter/material.dart';
 
@@ -24,6 +25,7 @@ class _MyExplorePageState extends State<ExplorePage> {
             shrinkWrap: true,
             padding: const EdgeInsets.all(8),
             children: [
+              const feelcard(),
               newadditionsection(),
             ],
           ),

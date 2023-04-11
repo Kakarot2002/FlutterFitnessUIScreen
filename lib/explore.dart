@@ -1,6 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:exp_scr/UI/Cards/feelcard.dart';
 import 'package:exp_scr/UI/HorizontalRails/new_addition_section.dart';
 import 'package:flutter/material.dart';
+
+import 'UI/HorizontalRails/Rail1.dart';
 
 class ExplorePage extends StatefulWidget {
   const ExplorePage({Key? key, required this.title}) : super(key: key);
@@ -26,6 +30,7 @@ class _MyExplorePageState extends State<ExplorePage> {
             padding: const EdgeInsets.all(8),
             children: [
               const feelcard(),
+              Rail1_Scroll(),
               newadditionsection(),
             ],
           ),

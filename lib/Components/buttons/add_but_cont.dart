@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../styles/addition_button_style.dart';
+import '../styles/button_style.dart';
 
 class AdditionContainerButton {
   // ignore: non_constant_identifier_names

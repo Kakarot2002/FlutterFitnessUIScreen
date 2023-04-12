@@ -21,6 +21,7 @@ class _additionContainer extends State<additionContainer> {
       padding: const EdgeInsets.only(left: 15, right: 15, bottom: 28.7),
       child: ListView(
           // This next line does the trick.
+          physics: const BouncingScrollPhysics(),
           scrollDirection: Axis.horizontal,
           children: <Widget>[
             Row(

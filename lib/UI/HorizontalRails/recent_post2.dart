@@ -55,6 +55,7 @@ class Recent_Post2 extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 15, right: 15),
                 child: ListView(
                     scrollDirection: Axis.horizontal,
+                    physics: const BouncingScrollPhysics(),
                     children: <Widget>[
                       Recent_post2_CardComponent(
                           linkimg:

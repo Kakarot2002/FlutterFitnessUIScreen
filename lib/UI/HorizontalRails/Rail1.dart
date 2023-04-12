@@ -51,6 +51,7 @@ class Rail1_Scroll extends StatelessWidget {
               padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
               child: ListView(
                 // This next line does the trick.
+                physics: const BouncingScrollPhysics(),
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   Rail1CardComponent(
